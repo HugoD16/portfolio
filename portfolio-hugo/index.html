@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Hugo Dehay</title>
+    <meta name="description" content="Portfolio de Hugo Dehay — BTS SIO SISR.">
+    <link rel="icon" href="/favicon.ico">
+    <script>
+      let originalTitle = document.title;
+      document.addEventListener("visibilitychange", () => {
+        document.title = document.hidden ? "❤️ M'oublie pas s'il te plaît" : originalTitle;
+      });
+    </script>
+  </head>
+  <body class="bg-ivory text-primary">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
