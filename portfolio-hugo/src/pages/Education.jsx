@@ -1,6 +1,6 @@
 const steps = [
-  { year: "2025", title: "BTS SIO SISR", school: "Établissement (à compléter)", details: "Solutions d’Infrastructure, Systèmes et Réseaux." },
-  { year: "2023", title: "Baccalauréat", school: "Lycée (à compléter)", details: "Spécialités à préciser." }
+  { year: "2024-2026", title: "BTS SIO SISR", school: "Lycée André Malraux Béthune", details: "Solutions d’Infrastructure, Systèmes et Réseaux." },
+  { year: "2022-2023", title: "Baccalauréat", school: "Lycée André Malraux Béthune", details: "STI2D option SIN" }
 ]
 export default function Education(){
   return (
